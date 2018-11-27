@@ -1,0 +1,24 @@
+[whywe]
+other = "Why We"
+[benefits]
+other = "Benefits"
+[features]
+other = "Features"
+[blog]
+other = "Blog"
+[contact]
+other = "Contact"
+
+[graphicdesign]
+other = "FR Graphic Design"
+[webdesign]
+other = "FR Web Design"
+[webdevelopment]
+other = "FR Web Development"
+
+[partners]
+other = "FR Partners"
+[faqs]
+other = "FR FAQ's"
+[badges]
+other = "FR Badges"

@@ -1,0 +1,58 @@
+enable  : true
+topTitle: HOW IT WORKS
+title   : Features
+subtitle: Providing customizable solutions to your problems
+item    :
+  - number  : 1
+    icon    : tf-ion-person-stalker
+    title   : Virtual receptionist
+    description : >
+      The virtual receptionist feature gives you an edge to answer your customer calls with professional greeting. The menu system helps in routing customer calls to right person, message or voice mail.
+
+  - number  : 2
+    icon    : tf-ion-ios-alarm-outline
+    title   : Hunt Groups
+    description : >
+      Ensure orderly call flow and assist customer in getting to the right staff members as quickly as possible
+
+  - number  : 3
+    icon    : tf-ion-ios-email-outline
+    title   : Customer Greeting
+    description : >
+      Take advantage of our text-to-speech function and create customer greetings in male and female voices, with various accents.
+
+  - number  : 4
+    icon    : tf-ion-record
+    title   : Call Recording*
+    description : >
+      Call recording is crystal clear using our advance voice technology
+
+  - number  : 5
+    icon    : tf-ion-pull-request
+    title   : Call Queues*
+    description : >
+      We manages your inbound call volume in an orderly manner through our VoIP business phone system so you will get quick and efficient service. 
+
+  - number  : 6
+    icon    : tf-ion-ios-people
+    title   : Call Conferencing*
+    description : >
+      --------------
+  
+  - number  : 7
+    icon    : tf-ion-android-car
+    title   : Call Parking
+    description : >
+      The calls can be parked and retrieved easily from any device.
+
+  - number  : 8
+    icon    : tf-ion-android-car
+    title   : Interactive Voice Response
+    description : >
+      -----------------
+
+  - number  : 9
+    icon    : tf-ion-ios-printer
+    title   : Virtual Fax
+    description : >
+      Virtual faxing give your business the flexibility to allow its users to work from anywhere

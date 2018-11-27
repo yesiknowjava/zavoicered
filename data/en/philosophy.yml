@@ -1,0 +1,25 @@
+enable    : true
+topTitle   : ENGLISH LITTLE MORE BRIEF
+title     : ENGLISH About Us.
+subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+tabItem   :
+  - id        : philosophy
+    title     : Geo Redundant Architecture
+    heading   : Geo Redundant Architecture
+    content   : >
+      Our cloud-based platform, allowing you to deploy new communication services quickly and efficiently.
+    image     : en/images/company/company-image.jpg
+
+  - id        : mission
+    title     : Enterprise Grade Features
+    heading   : Enterprise Grade Features
+    content   : >
+      Maintain a right balance of flexibility and control, so you can work efficiently and smoothly. 
+    image     : en/images/company/company-image-2.jpg
+
+  - id        : vision
+    title     : US Based Support
+    heading   : US Based Support
+    content   : >
+      Our support team is right here in the America! 
+    image     : en/images/company/company-image-3.jpg

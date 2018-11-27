@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-copy-outline
+    title : Geo Redundant Architecture
+    description : >
+      Our cloud-based platform, allowing you to deploy new communication services quickly and efficiently. 
+
+  - icon  : tf-ion-ios-alarm-outline
+    title : Enterprise Grade Features
+    description : >
+      Maintain a right balance of flexibility and control, so you can work efficiently and smoothly.
+
+  - icon  : tf-ion-ios-book-outline
+    title : US Based Support
+    description : >
+      Our support team is right here in the America! 

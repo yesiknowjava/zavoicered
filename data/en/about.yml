@@ -1,0 +1,25 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/img1.jpg
+    title : Smart Call Routing
+    description : >
+      Our intelligent call routing engine can build optimum call flows for your business.
+
+  - positionRight : true
+    image : images/img2.jpg
+    title : Keep your number
+    description : >
+      You can switch to our services with your existing phone numbers. 
+
+  - positionRight : false
+    image : images/img3.jpg
+    title : Fast deployment
+    description : >
+      Our solution experts work with your local partner to get you deployed quickly and efficiently.
+
+  - positionRight : true
+    image : images/img4.jpg
+    title : Local Partner support
+    description : >
+      We have so many business partnered with us local to your place.

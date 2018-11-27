@@ -1,0 +1,32 @@
+enable    : true
+topTitle   : ENGLISH LITTLE MORE BRIEF
+title     : ENGLISH About Us.
+subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+tabItem   :
+  - id        : smart
+    title     : Smart Call Routing
+    heading   : Smart Call Routing
+    content   : >
+      Our intelligent call routing engine can build optimum call flows for your business.
+    image     : en/images/img1.jpg
+
+  - id        : number
+    title     : Keep your number
+    heading   : Keep your number
+    content   : >
+      You can switch to our services with your existing phone numbers. 
+    image     : en/images/img2.jpg
+
+  - id        : deployment
+    title     : Fast deployment
+    heading   : Fast deployment
+    content   : >
+      Our solution experts work with your local partner to get you deployed quickly and efficiently. 
+    image     : en/images/img3.jpg
+
+  - id        : local
+    title     : Local Partner support
+    heading   : Local Partner support
+    content   : >
+      We have so many business partnered with us local to your place. 
+    image     : en/images/img4.jpg

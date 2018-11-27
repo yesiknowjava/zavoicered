@@ -1,0 +1,81 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.benefits }}
+    {{ if .enable }}
+    {{ "<!-- About Section Start -->" | safeHTML }}
+    <section class="about section-sm" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        <h4>Our</h4>
+                        <h2>BENEFITS</h2>
+                        <span class="border"></span>
+                        <p>Our infrastructure gives you competitive rates, device flexibility, quick office setup, personalized user portal, and 99.999% reliability with failover</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="commonTab">
+                        <ul class="nav nav-tabs justify-content-center" id="myTab">
+                            {{ range $index, $element := .tabItem }}
+                            <li class="nav-item">
+                                <a class="nav-link {{ if eq $index 0 }}active{{ end }}" id="{{ .id }}-tab" data-toggle="tab" href="#{{.id}}">{{ .title }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            {{ range $index, $element := .tabItem }}
+                            <div class="tab-pane fade {{ if eq $index 0 }}show active{{ end }}" id="{{ .id }}">
+                                <div class="row">
+                                    <div class="col-md-6 align-self-center">
+                                        {{ with .heading }}<h2>{{ . }}</h2>{{ end }}
+                                        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img-fluid rounded shadow" src="{{ .image | absURL }}" alt="tab-image">
+                                    </div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ range .item }}
+                {{ if .positionRight }}
+                    <div class="row mt-50 justify-content-center">
+                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                            <div class="content">
+                                <h2>{{ .title }}</h2>
+                                <p>
+                                    {{ .description }}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-sm-12 text-center">
+                            <img src="{{ .image }}" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                    </div>
+                {{ else }}
+                    <div class="row mb-50 justify-content-center">
+                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
+                            <img src="{{ .image }}" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="content">
+                                <h2>{{ .title }}</h2>
+                                <p>
+                                    {{ .description }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    {{"<!-- About section End -->" | safeHTML}}
+    {{ end }}
+{{ end }}
